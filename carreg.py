@@ -43,5 +43,4 @@ if st.button('Predict Price'):
     predicted_price = np.exp(log_predicted_price)
 
     st.write(f'The predicted price of the car is {predicted_price[0]:,.2f} AZN')
-if __name__ == "__main__":
-    main()
+
