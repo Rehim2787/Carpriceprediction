@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import json
+import sklearn
 
 with open('car_random_forest.pkl', 'rb') as file:
     model = pickle.load(file)
